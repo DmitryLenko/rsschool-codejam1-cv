@@ -90,3 +90,35 @@ footer h4 {
 #contacts a img {
     padding-right: 5px;
 }
+
+
+#summary {
+    height: 400px;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+#skills div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    width: 30%;
+    text-align: left;
+    border: 1px solid gray;
+    box-shadow: 5px 10px gray;
+}
+
+#skills div h3,
+#skills div p {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+p a {
+    float: right;
+}
+
+
+
