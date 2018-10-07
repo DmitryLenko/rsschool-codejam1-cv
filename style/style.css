@@ -73,6 +73,7 @@ footer h4 {
     padding: 10%;    
     font-size: 2.5rem;
     color:rgb(117, 13, 91);
+    font-family: 'Raleway', sans-serif;
 }
 
 #contacts a {
@@ -91,21 +92,35 @@ footer h4 {
     padding-right: 5px;
 }
 
-
 #summary {
-    height: 400px;
+    height: 250px;
+    vertical-align: top;
+}
+
+#summary p {
+    padding: 5% 0 0 10%;
+    text-align: start;
+    font-size: 1.5rem;
 }
 
 h2 {
     padding-top: 20px;
+    font-family: "Raleway","Arial", "Times New Roman", sans-serif;
 }
 
-#skills div {
+#skills div,
+#experience div,
+#education div {
     display: inline-block;
     vertical-align: top;
     margin: 20px;
-    width: 30%;
     text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', "Raleway","Arial", "Times New Roman", serif;
+}
+
+#skills div {
+    width: 30%;
     border: 1px solid gray;
     box-shadow: 5px 10px gray;
 }
@@ -116,8 +131,28 @@ h2 {
     border-bottom: 1px solid black;
 }
 
-p a {
+#skills div p a {
     float: right;
+}
+
+#code-examples a {
+    display: block;
+    padding: 20px;
+}
+
+#experience div {
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+#education div {
+    width: 25%;
+}
+
+#level-english p {
+    padding: 10px;
 }
 
 
